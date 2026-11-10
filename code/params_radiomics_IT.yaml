@@ -1,0 +1,29 @@
+# PyRadiomics settings, intratumoural region (IT). Images were N4-corrected and resampled in-plane
+# to 0.7 mm by 02_preprocess.py, so no resampling here. Slice thickness 3-5 mm -> 2-D texture (force2D).
+imageType:
+  Original: {}
+  LoG:
+    sigma: [1.0, 2.0, 3.0]
+  Wavelet: {}
+featureClass:
+  shape:
+  firstorder:
+  glcm:
+  glrlm:
+  glszm:
+  gldm:
+  ngtdm:
+setting:
+  label: 1
+  normalize: true
+  normalizeScale: 100
+  removeOutliers: 3
+  voxelArrayShift: 300
+  binWidth: 5
+  force2D: true
+  force2Ddimension: 0
+  padDistance: 10
+  correctMask: true
+  geometryTolerance: 0.0001
+  minimumROIDimensions: 2
+  minimumROISize: 10
