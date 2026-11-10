@@ -1,0 +1,53 @@
+OMP: Warning #179: Function Can't set size of /tmp file failed:
+[C1] 160 rows; columns ['label', 'image_name', 'mask_name']; labels {0: 130, 1: 30}
+[C1] images on disk 119, listed 119, unlisted [], missing []
+[C1] masks on disk 160, listed 160, unlisted [], missing []
+[C2] 48 rows; columns ['label', 'image_name', 'mask_name']; labels {1: 25, 0: 23}
+[C2] images on disk 47, listed 47, unlisted [], missing []
+[C2] masks on disk 48, listed 48, unlisted [], missing []
+[C3] 32 rows; columns ['label', 'image_name', 'mask_name']; labels {0: 19, 1: 13}
+[C3] images on disk 24, listed 24, unlisted [], missing []
+[C3] masks on disk 32, listed 32, unlisted [], missing []
+[C4] 35 rows; columns ['label', 'image_name', 'mask_name']; labels {0: 18, 1: 17}
+[C4] images on disk 31, listed 31, unlisted [], missing []
+[C4] masks on disk 35, listed 35, unlisted [], missing []
+top-5 thumbnail correlations between different scans: [(0.875, 'C3_08', 'C3_21', False), (0.85, 'C3_15', 'C3_21', False), (0.845, 'C3_21', 'C3_24', False), (0.836, 'C3_15', 'C3_24', False), (0.835, 'C3_06', 'C3_24', False)]
+tumours with an identical mask on the same scan (true duplicates): 0 []
+overlapping masks in C1_021: 30 voxels
+overlapping masks in C1_042: 217 voxels
+overlapping masks in C1_076: 50 voxels
+overlapping masks in C1_087: 335 voxels
+overlapping masks in C1_093: 3 voxels
+overlapping masks in C1_094: 2 voxels
+overlapping masks in C1_100: 669 voxels
+overlapping masks in C3_12: 71 voxels
+overlapping masks in C4_05: 351 voxels
+overlapping masks in C4_07: 87 voxels
+multi-tumour patients: 27; all-NMIBC 21, all-MIBC 2, mixed 4
+                                                                                            0                                                           1                                             2                       3
+centre                                                                                     C1                                                          C2                                            C3                      C4
+scanner                                                                Siemens MAGNETOM Skyra                                      United Imaging uMR 780                           GE Discovery MR750w  Siemens MAGNETOM Verio
+tumours                                                                                   160                                                          48                                            32                      35
+tumours_paper                                                                             160                                                          48                                            32                      35
+MIBC                                                                                       30                                                          25                                            13                      17
+MIBC_paper                                                                                 30                                                          25                                            13                      17
+MIBC_pct                                                                                 18.8                                                        52.1                                          40.6                    48.6
+scans                                                                                     119                                                          47                                            24                      31
+patients                                                                                  119                                                          47                                            24                      31
+patients_paper_table1                                                                     119                                                          47                                            24                      31
+multi_tumour_patients                                                                      18                                                           1                                             5                       3
+max_tumours_per_patient                                                                    12                                                           2                                             4                       3
+inplane_mm_median                                                                       0.625                                                       0.397                                         0.703                    0.75
+inplane_mm_range                                                                  0.500-1.188                                                 0.312-0.820                                   0.586-0.781             0.625-1.188
+slice_mm_median                                                                           3.3                                                         3.5                                          5.75                     4.8
+slice_mm_range                                                                      1.00-7.20                                                   3.00-6.00                                     4.00-7.00               3.00-7.20
+matrix_top                                                                         320x320x20                                                  504x504x24                                    512x512x28              320x320x24
+orientation                                                                           LPS:119                                                      LPS:47                                        LPS:24                  LPS:31
+pixel_type               8-bit unsigned integer/16-bit unsigned integer/16-bit signed integer  16-bit signed integer/32-bit float/16-bit unsigned integer  16-bit signed integer/vector of 32-bit float   16-bit signed integer
+tumour_ml_median                                                                         1.73                                                        8.62                                          6.12                    5.04
+tumour_ml_IQR                                                                       0.55-5.74                                                  3.78-15.50                                    2.41-17.86              1.92-16.15
+slices_median                                                                             5.0                                                         7.0                                           4.0                     5.0
+mask_geometry_mismatch                                                                      0                                                           0                                             0                       0
+multi_component_masks                                                                      24                                                           3                                             8                       3
+empty_masks                                                                                 0                                                           0                                             0                       0
+TOTAL tumours 275, MIBC 85, scans 221, patients 221

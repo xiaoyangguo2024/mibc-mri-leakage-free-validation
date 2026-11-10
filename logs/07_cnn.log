@@ -1,0 +1,31 @@
+device mps; slices (1197, 3, 128, 128); tumours 275
+[strict] r0f0: best epoch 8, val AUC 0.862, test AUC 0.771 (148s)
+[strict] r0f1: best epoch 13, val AUC 0.846, test AUC 0.799 (378s)
+[strict] r0f2: best epoch 8, val AUC 0.730, test AUC 0.874 (569s)
+[strict] r0f3: best epoch 7, val AUC 0.833, test AUC 0.819 (702s)
+[strict] r0f4: best epoch 10, val AUC 0.803, test AUC 0.847 (848s)
+[strict] done in 848s
+[loco] C1: best epoch 5, val AUC 0.947, test AUC 0.755 (103s)
+[loco] C2: best epoch 2, val AUC 0.748, test AUC 0.743 (182s)
+[loco] C3: best epoch 17, val AUC 0.894, test AUC 0.640 (391s)
+[loco] C4: best epoch 7, val AUC 0.797, test AUC 0.797 (514s)
+[loco] done in 514s
+[s3] C1->C2-4: best epoch 15, val AUC 0.617, test AUC 0.775 (132s)
+[s3] done in 132s
+[slice10] f0: best epoch 19, val AUC 0.988, test slice AUC 0.999 (189s)
+[slice10] f1: best epoch 10, val AUC 0.994, test slice AUC 0.995 (332s)
+[slice10] f2: best epoch 10, val AUC 0.981, test slice AUC 0.985 (506s)
+[slice10] f3: best epoch 22, val AUC 0.994, test slice AUC 0.991 (727s)
+[slice10] f4: best epoch 16, val AUC 0.991, test slice AUC 0.985 (914s)
+[slice10] f5: best epoch 25, val AUC 0.993, test slice AUC 0.993 (1120s)
+[slice10] f6: best epoch 12, val AUC 0.993, test slice AUC 0.996 (1235s)
+[slice10] f7: best epoch 26, val AUC 0.988, test slice AUC 0.989 (1417s)
+[slice10] f8: best epoch 16, val AUC 0.996, test slice AUC 0.983 (1610s)
+[slice10] f9: best epoch 16, val AUC 0.997, test slice AUC 0.984 (1765s)
+[slice10] done in 1765s
+[tumour5] r0f0: best epoch 9, val AUC 0.813, test AUC 0.788 (92s)
+[tumour5] r0f1: best epoch 8, val AUC 0.938, test AUC 0.726 (197s)
+[tumour5] r0f2: best epoch 8, val AUC 0.776, test AUC 0.800 (285s)
+[tumour5] r0f3: best epoch 5, val AUC 0.839, test AUC 0.831 (358s)
+[tumour5] r0f4: best epoch 15, val AUC 0.703, test AUC 0.887 (480s)
+[tumour5] done in 480s

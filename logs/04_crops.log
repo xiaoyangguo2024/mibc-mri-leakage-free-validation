@@ -1,0 +1,11 @@
+OMP: Warning #179: Function Can't set size of /tmp file failed:
+count    275.000000
+mean       5.723636
+std        3.544810
+min        1.000000
+25%        3.000000
+50%        5.000000
+75%        7.000000
+max       19.000000
+dtype: float64
+FOV > 80 mm: 27 tumours

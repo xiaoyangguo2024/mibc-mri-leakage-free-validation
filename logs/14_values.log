@@ -1,0 +1,735 @@
+OMP: Warning #179: Function Can't set size of /tmp file failed:
+./code/14_values.py:219: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  V[f"RHO_MEANP_{proto}_{k}"] = f"{spearmanr(r['mean_p'], r['prevalence']).statistic:.1f}".replace("-", "−")
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+ABL_FULL                     0.82 (95% CI 0.76–0.87)
+ABL_FULL_A                   0.82
+ABL_OUTSIDE                  0.61 (95% CI 0.53–0.69)
+ABL_OUTSIDE_A                0.61
+ABL_RING                     0.80 (95% CI 0.74–0.86)
+ABL_RING_A                   0.80
+ABL_TUMOUR                   0.72 (95% CI 0.66–0.79)
+ABL_TUMOUR_A                 0.72
+AUCS_S1_BCLIP                0.70 (0.63–0.76)
+AUCS_S1_CENTRE               0.67 (0.60–0.74)
+AUCS_S1_CNN                  0.82 (0.76–0.87)
+AUCS_S1_DINO                 0.75 (0.69–0.81)
+AUCS_S1_DLR                  0.83 (0.78–0.87)
+AUCS_S1_LATE                 0.83 (0.78–0.87)
+AUCS_S1_R50                  0.73 (0.67–0.80)
+AUCS_S1_RAD                  0.82 (0.77–0.86)
+AUCS_S1_RADIT                0.81 (0.75–0.86)
+AUCS_S1_SIZE                 0.82 (0.77–0.87)
+AUCS_S2_BCLIP                0.71 (0.63–0.78)
+AUCS_S2_CENTRE               0.32 (0.26–0.39)
+AUCS_S2_CNN                  0.68 (0.61–0.76)
+AUCS_S2_CNNADA               0.64 (0.57–0.72)
+AUCS_S2_DINO                 0.73 (0.67–0.80)
+AUCS_S2_DLR                  0.83 (0.77–0.88)
+AUCS_S2_LATE                 0.85 (0.80–0.90)
+AUCS_S2_R50                  0.75 (0.69–0.82)
+AUCS_S2_RAD                  0.83 (0.77–0.88)
+AUCS_S2_RADIT                0.80 (0.74–0.85)
+AUCS_S2_SIZE                 0.83 (0.78–0.89)
+AUCS_S3_BCLIP                0.63 (0.53–0.73)
+AUCS_S3_CENTRE               0.50 (0.50–0.50)
+AUCS_S3_CNN                  0.78 (0.68–0.86)
+AUCS_S3_DINO                 0.70 (0.60–0.80)
+AUCS_S3_DLR                  0.72 (0.61–0.81)
+AUCS_S3_LATE                 0.76 (0.66–0.84)
+AUCS_S3_R50                  0.66 (0.54–0.76)
+AUCS_S3_RAD                  0.73 (0.62–0.82)
+AUCS_S3_RADIT                0.75 (0.66–0.84)
+AUCS_S3_SIZE                 0.81 (0.73–0.89)
+AUC_S1_BCLIP                 0.70 (95% CI 0.63–0.76)
+AUC_S1_CENTRE                0.67 (95% CI 0.60–0.74)
+AUC_S1_CNN                   0.82 (95% CI 0.76–0.87)
+AUC_S1_DINO                  0.75 (95% CI 0.69–0.81)
+AUC_S1_DLR                   0.83 (95% CI 0.78–0.87)
+AUC_S1_LATE                  0.83 (95% CI 0.78–0.87)
+AUC_S1_R50                   0.73 (95% CI 0.67–0.80)
+AUC_S1_RAD                   0.82 (95% CI 0.77–0.86)
+AUC_S1_RADIT                 0.81 (95% CI 0.75–0.86)
+AUC_S1_SIZE                  0.82 (95% CI 0.77–0.87)
+AUC_S2_BCLIP                 0.71 (95% CI 0.63–0.78)
+AUC_S2_CENTRE                0.32 (95% CI 0.26–0.39)
+AUC_S2_CNN                   0.68 (95% CI 0.61–0.76)
+AUC_S2_CNNADA                0.64 (95% CI 0.57–0.72)
+AUC_S2_DINO                  0.73 (95% CI 0.67–0.80)
+AUC_S2_DLR                   0.83 (95% CI 0.77–0.88)
+AUC_S2_LATE                  0.85 (95% CI 0.80–0.90)
+AUC_S2_R50                   0.75 (95% CI 0.69–0.82)
+AUC_S2_RAD                   0.83 (95% CI 0.77–0.88)
+AUC_S2_RADIT                 0.80 (95% CI 0.74–0.85)
+AUC_S2_SIZE                  0.83 (95% CI 0.78–0.89)
+AUC_S3_BCLIP                 0.63 (95% CI 0.53–0.73)
+AUC_S3_CENTRE                0.50 (95% CI 0.50–0.50)
+AUC_S3_CNN                   0.78 (95% CI 0.68–0.86)
+AUC_S3_DINO                  0.70 (95% CI 0.60–0.80)
+AUC_S3_DLR                   0.72 (95% CI 0.61–0.81)
+AUC_S3_LATE                  0.76 (95% CI 0.66–0.84)
+AUC_S3_R50                   0.66 (95% CI 0.54–0.76)
+AUC_S3_RAD                   0.73 (95% CI 0.62–0.82)
+AUC_S3_RADIT                 0.75 (95% CI 0.66–0.84)
+AUC_S3_SIZE                  0.81 (95% CI 0.73–0.89)
+A_S1_BCLIP                   0.70
+A_S1_CENTRE                  0.67
+A_S1_CNN                     0.82
+A_S1_DINO                    0.75
+A_S1_DLR                     0.83
+A_S1_LATE                    0.83
+A_S1_R50                     0.73
+A_S1_RAD                     0.82
+A_S1_RADIT                   0.81
+A_S1_SIZE                    0.82
+A_S2_BCLIP                   0.71
+A_S2_CENTRE                  0.32
+A_S2_CNN                     0.68
+A_S2_CNNADA                  0.64
+A_S2_DINO                    0.73
+A_S2_DLR                     0.83
+A_S2_LATE                    0.85
+A_S2_R50                     0.75
+A_S2_RAD                     0.83
+A_S2_RADIT                   0.80
+A_S2_SIZE                    0.83
+A_S3_BCLIP                   0.63
+A_S3_CENTRE                  0.50
+A_S3_CNN                     0.78
+A_S3_DINO                    0.70
+A_S3_DLR                     0.72
+A_S3_LATE                    0.76
+A_S3_R50                     0.66
+A_S3_RAD                     0.73
+A_S3_RADIT                   0.75
+A_S3_SIZE                    0.81
+BRIER_S1_BCLIP               0.220
+BRIER_S1_CENTRE              0.193
+BRIER_S1_CNN                 0.207
+BRIER_S1_DINO                0.201
+BRIER_S1_DLR                 0.164
+BRIER_S1_LATE                0.168
+BRIER_S1_R50                 0.207
+BRIER_S1_RAD                 0.171
+BRIER_S1_RADIT               0.176
+BRIER_S1_SIZE                0.182
+BRIER_S2_BCLIP               0.215
+BRIER_S2_CENTRE              0.259
+BRIER_S2_CNN                 0.286
+BRIER_S2_CNNADA              0.303
+BRIER_S2_DINO                0.231
+BRIER_S2_DLR                 0.154
+BRIER_S2_LATE                0.166
+BRIER_S2_R50                 0.207
+BRIER_S2_RAD                 0.164
+BRIER_S2_RADIT               0.198
+BRIER_S2_SIZE                0.187
+BRIER_S3_BCLIP               0.311
+BRIER_S3_CENTRE              0.334
+BRIER_S3_CNN                 0.302
+BRIER_S3_DINO                0.222
+BRIER_S3_DLR                 0.226
+BRIER_S3_LATE                0.196
+BRIER_S3_R50                 0.234
+BRIER_S3_RAD                 0.220
+BRIER_S3_RADIT               0.210
+BRIER_S3_SIZE                0.209
+CENRANGE_S2_BCLIP            0.56–0.77
+CENRANGE_S2_CENTRE           0.50–0.50
+CENRANGE_S2_CNN              0.64–0.80
+CENRANGE_S2_CNNADA           0.62–0.84
+CENRANGE_S2_DINO             0.56–0.82
+CENRANGE_S2_DLR              0.75–0.89
+CENRANGE_S2_LATE             0.80–0.86
+CENRANGE_S2_R50              0.61–0.81
+CENRANGE_S2_RAD              0.75–0.84
+CENRANGE_S2_RADIT            0.64–0.83
+CENRANGE_S2_SIZE             0.76–0.84
+CENRANGE_S3_BCLIP            0.40–0.75
+CENRANGE_S3_CENTRE           0.50–0.50
+CENRANGE_S3_CNN              0.67–0.83
+CENRANGE_S3_DINO             0.49–0.77
+CENRANGE_S3_DLR              0.64–0.78
+CENRANGE_S3_LATE             0.71–0.82
+CENRANGE_S3_R50              0.58–0.71
+CENRANGE_S3_RAD              0.64–0.81
+CENRANGE_S3_RADIT            0.66–0.81
+CENRANGE_S3_SIZE             0.76–0.85
+CENTRE_MAJORITY              0.58
+CEN_S2_BCLIP_C1              0.77
+CEN_S2_BCLIP_C2              0.66
+CEN_S2_BCLIP_C3              0.56
+CEN_S2_BCLIP_C4              0.75
+CEN_S2_CENTRE_C1             0.50
+CEN_S2_CENTRE_C2             0.50
+CEN_S2_CENTRE_C3             0.50
+CEN_S2_CENTRE_C4             0.50
+CEN_S2_CNNADA_C1             0.74
+CEN_S2_CNNADA_C2             0.74
+CEN_S2_CNNADA_C3             0.62
+CEN_S2_CNNADA_C4             0.84
+CEN_S2_CNN_C1                0.75
+CEN_S2_CNN_C2                0.74
+CEN_S2_CNN_C3                0.64
+CEN_S2_CNN_C4                0.80
+CEN_S2_DINO_C1               0.82
+CEN_S2_DINO_C2               0.74
+CEN_S2_DINO_C3               0.56
+CEN_S2_DINO_C4               0.74
+CEN_S2_DLR_C1                0.84
+CEN_S2_DLR_C2                0.89
+CEN_S2_DLR_C3                0.75
+CEN_S2_DLR_C4                0.77
+CEN_S2_LATE_C1               0.86
+CEN_S2_LATE_C2               0.80
+CEN_S2_LATE_C3               0.81
+CEN_S2_LATE_C4               0.84
+CEN_S2_R50_C1                0.81
+CEN_S2_R50_C2                0.72
+CEN_S2_R50_C3                0.61
+CEN_S2_R50_C4                0.69
+CEN_S2_RADIT_C1              0.83
+CEN_S2_RADIT_C2              0.75
+CEN_S2_RADIT_C3              0.64
+CEN_S2_RADIT_C4              0.74
+CEN_S2_RAD_C1                0.84
+CEN_S2_RAD_C2                0.75
+CEN_S2_RAD_C3                0.76
+CEN_S2_RAD_C4                0.83
+CEN_S2_SIZE_C1               0.83
+CEN_S2_SIZE_C2               0.84
+CEN_S2_SIZE_C3               0.81
+CEN_S2_SIZE_C4               0.76
+CEN_S3_BCLIP_C2              0.66
+CEN_S3_BCLIP_C3              0.40
+CEN_S3_BCLIP_C4              0.75
+CEN_S3_CENTRE_C2             0.50
+CEN_S3_CENTRE_C3             0.50
+CEN_S3_CENTRE_C4             0.50
+CEN_S3_CNN_C2                0.80
+CEN_S3_CNN_C3                0.67
+CEN_S3_CNN_C4                0.83
+CEN_S3_DINO_C2               0.77
+CEN_S3_DINO_C3               0.49
+CEN_S3_DINO_C4               0.74
+CEN_S3_DLR_C2                0.78
+CEN_S3_DLR_C3                0.64
+CEN_S3_DLR_C4                0.67
+CEN_S3_LATE_C2               0.82
+CEN_S3_LATE_C3               0.71
+CEN_S3_LATE_C4               0.72
+CEN_S3_R50_C2                0.71
+CEN_S3_R50_C3                0.58
+CEN_S3_R50_C4                0.65
+CEN_S3_RADIT_C2              0.81
+CEN_S3_RADIT_C3              0.66
+CEN_S3_RADIT_C4              0.76
+CEN_S3_RAD_C2                0.81
+CEN_S3_RAD_C3                0.64
+CEN_S3_RAD_C4                0.64
+CEN_S3_SIZE_C2               0.85
+CEN_S3_SIZE_C3               0.81
+CEN_S3_SIZE_C4               0.76
+CITL_S1_BCLIP                −0.78
+CITL_S1_CENTRE               0.00
+CITL_S1_CNN                  −1.62
+CITL_S1_DINO                 −0.75
+CITL_S1_DLR                  −0.69
+CITL_S1_LATE                 −0.65
+CITL_S1_R50                  −0.74
+CITL_S1_RAD                  −0.77
+CITL_S1_RADIT                −0.73
+CITL_S1_SIZE                 −0.76
+CITL_S2_BCLIP                −0.78
+CITL_S2_CENTRE               −0.39
+CITL_S2_CNN                  −1.80
+CITL_S2_CNNADA               −1.48
+CITL_S2_DINO                 −1.16
+CITL_S2_DLR                  −0.65
+CITL_S2_LATE                 −0.65
+CITL_S2_R50                  −0.86
+CITL_S2_RAD                  −0.56
+CITL_S2_RADIT                −0.79
+CITL_S2_SIZE                 −0.80
+CITL_S3_BCLIP                1.77
+CITL_S3_CENTRE               1.38
+CITL_S3_CNN                  3.47
+CITL_S3_DINO                 −0.04
+CITL_S3_DLR                  0.46
+CITL_S3_LATE                 0.08
+CITL_S3_R50                  −0.23
+CITL_S3_RAD                  0.63
+CITL_S3_RADIT                −0.31
+CITL_S3_SIZE                 −0.20
+CNN_EPVAL_A                  0.82
+CNN_EPVAL_AUC                0.82
+CNN_L1L5_A                   0.99
+CNN_L1L5_AUC                 0.99
+CNN_L1L5_DS                  0.00
+CNN_L1VAL_A                  0.99
+CNN_L1VAL_AUC                0.99
+CNN_L1_A                     0.99
+CNN_L1_AUC                   0.99 (95% CI 0.98–0.99)
+CNN_L1_D                     +0.18 (95% CI +0.14 to +0.23)
+CNN_L1_DS                    +0.18
+CNN_L2_A                     0.81
+CNN_L2_AUC                   0.81 (95% CI 0.75–0.87)
+CNN_L2_D                     −0.01 (95% CI −0.05 to +0.03)
+CNN_L2_DS                    −0.01
+CNN_L5_A                     0.83
+CNN_L5_AUC                   0.83
+CNN_L5_DS                    +0.01
+CNN_L7_A                     0.64
+CNN_L7_AUC                   0.64 (95% CI 0.57–0.72)
+CNN_L7_D                     −0.04 (95% CI −0.08 to −0.01)
+CNN_L7_DS                    −0.04
+CNN_LOCOEPVAL_A              0.73
+CNN_LOCOEPVAL_AUC            0.73
+CNN_LOCOL5_A                 0.79
+CNN_LOCOL5_AUC               0.79
+CNN_LOCOL5_DS                +0.06
+CNN_LOCO_A                   0.68
+CNN_LOCO_AUC                 0.68 (95% CI 0.61–0.76)
+CNN_SLICE_A                  0.81
+CNN_SLICE_AUC                0.81 (95% CI 0.75–0.86)
+CNN_STRICT_A                 0.82
+CNN_STRICT_AUC               0.82 (95% CI 0.76–0.87)
+CNN_VALTEST_RHO_LOCO         0.16
+CNN_VALTEST_RHO_STRICT       0.70
+DCA_CNN_GT_SIZE              39%
+DCA_CNN_GT_SIZE_RANGE        0.19–0.40
+DCA_CNN_RANGE                0.19–0.43
+DCA_DLR_GT_SIZE              88%
+DCA_DLR_GT_SIZE_RANGE        0.08–0.56
+DCA_DLR_RANGE                0.08–0.60
+DCA_RAD_GT_SIZE              79%
+DCA_RAD_GT_SIZE_RANGE        0.08–0.47
+DCA_RAD_RANGE                0.08–0.60
+DCA_RAD_SIZE_GAPRANGE_RAW    −0.03 to 0.10
+DCA_RAD_SIZE_GAPRANGE_RECAL  −0.05 to 0.03
+DCA_RAD_SIZE_MAXGAP          0.10
+DCA_RAD_SIZE_MAXGAP_RECAL    0.03
+DCA_SIZE_RANGE               0.10–0.60
+DSIZE_S1_BCLIP               −0.12 (95% CI −0.19 to −0.05)
+DSIZE_S1_CNN                 −0.02 (95% CI −0.08 to +0.04)
+DSIZE_S1_DINO                −0.07 (95% CI −0.14 to 0.00)
+DSIZE_S1_DLR                 +0.01 (95% CI −0.03 to +0.04)
+DSIZE_S1_LATE                +0.01 (95% CI −0.03 to +0.05)
+DSIZE_S1_R50                 −0.09 (95% CI −0.16 to −0.01)
+DSIZE_S1_RAD                 0.00 (95% CI −0.04 to +0.03)
+DSIZE_S1_RADIT               −0.01 (95% CI −0.03 to +0.01)
+DSIZE_S2_BCLIP               −0.13 (95% CI −0.21 to −0.05)
+DSIZE_S2_CNN                 −0.15 (95% CI −0.22 to −0.07)
+DSIZE_S2_CNNADA              −0.19 (95% CI −0.27 to −0.11)
+DSIZE_S2_DINO                −0.10 (95% CI −0.17 to −0.03)
+DSIZE_S2_DLR                 0.00 (95% CI −0.05 to +0.04)
+DSIZE_S2_LATE                +0.02 (95% CI −0.03 to +0.07)
+DSIZE_S2_MAX                 +0.02 (95% CI −0.03 to +0.07)
+DSIZE_S2_R50                 −0.08 (95% CI −0.15 to 0.00)
+DSIZE_S2_RAD                 −0.01 (95% CI −0.06 to +0.04)
+DSIZE_S2_RADIT               −0.04 (95% CI −0.08 to 0.00)
+DSIZE_S3_BCLIP               −0.18 (95% CI −0.30 to −0.07)
+DSIZE_S3_CNN                 −0.04 (95% CI −0.14 to +0.07)
+DSIZE_S3_DINO                −0.11 (95% CI −0.23 to +0.01)
+DSIZE_S3_DLR                 −0.10 (95% CI −0.19 to −0.01)
+DSIZE_S3_LATE                −0.05 (95% CI −0.14 to +0.03)
+DSIZE_S3_R50                 −0.16 (95% CI −0.27 to −0.04)
+DSIZE_S3_RAD                 −0.09 (95% CI −0.19 to +0.01)
+DSIZE_S3_RADIT               −0.06 (95% CI −0.14 to +0.01)
+ENRICH_R                     1.2 (IQR 0.7–1.7)
+ENRICH_T                     1.4 (IQR 0.6–2.2)
+FOLD_S1_BCLIP                0.71 ± 0.06
+FOLD_S1_CENTRE               0.68 ± 0.01
+FOLD_S1_CNN                  0.82 ± 0.04
+FOLD_S1_DINO                 0.75 ± 0.06
+FOLD_S1_DLR                  0.83 ± 0.05
+FOLD_S1_LATE                 0.83 ± 0.06
+FOLD_S1_R50                  0.74 ± 0.07
+FOLD_S1_RAD                  0.82 ± 0.07
+FOLD_S1_RADIT                0.83 ± 0.06
+FOLD_S1_SIZE                 0.83 ± 0.06
+I2_BCLIP                     11%
+I2_CENTRE                    nan%
+I2_CNN                       0%
+I2_CNNADA                    0%
+I2_DINO                      24%
+I2_DLR                       0%
+I2_LATE                      0%
+I2_R50                       4%
+I2_RAD                       0%
+I2_RADIT                     0%
+I2_SIZE                      0%
+ID_BCLIP                     0.79
+ID_BCLIP_ACC                 0.59
+ID_DINO                      0.84
+ID_DINO_ACC                  0.71
+ID_FO                        0.86
+ID_FO_ACC                    0.74
+ID_R50                       0.80
+ID_R50_ACC                   0.64
+ID_RAD                       0.86
+ID_RAD_ACC                   0.75
+ID_SHAPE                     0.67
+ID_SHAPE_ACC                 0.58
+ID_SIZE                      0.65
+ID_SIZE_ACC                  0.57
+L5_BEST_CONFIG               KNN|k=20|[('n_neighbors', 25)]
+L5_MEDIAN                    0.83
+L5_RANGE                     0.78–0.85
+L6_ACCURACY_TEST             0.76
+L6_ACCURACY_TRAIN            0.76
+L6_BALANCED_ACCURACY_TEST    0.77
+L6_BALANCED_ACCURACY_TRAIN   0.75
+L6_SENSITIVITY_TEST          0.80
+L6_SENSITIVITY_TRAIN         0.73
+L6_SPECIFICITY_TEST          0.74
+L6_SPECIFICITY_TRAIN         0.78
+L7H0_CEN_MEAN                0.75
+L7H0_MEANP_RANGE             0.35–0.61
+L7H2_CEN_MEAN                0.74
+L7H2_MEANP_RANGE             0.36–0.49
+L7H3_FEAT                    PT wav-LL GLSZM LALGLE
+L7H3_FEAT_AUC_RAW            0.19–0.45
+L7H3_FEAT_AUC_TEST           0.00
+L7H3_FEAT_AUC_TRAIN          1.00
+L7H3_MIN_AUC                 0.00
+L7H3_MIN_CENTRE              C4
+L7H3_NSEL                    one
+L7H3_OTHER_RANGE             0.62–0.89
+L7H3_OUTLIER_LABEL           NMIBC
+L7H3_RATIO                   10^7^
+MAX_DUP_R                    0.875
+MAX_TPP                      12
+MEANP_S2_BCLIP_C1            43%
+MEANP_S2_BCLIP_C2            42%
+MEANP_S2_BCLIP_C3            47%
+MEANP_S2_BCLIP_C4            55%
+MEANP_S2_CENTRE_C1           48%
+MEANP_S2_CENTRE_C2           26%
+MEANP_S2_CENTRE_C3           30%
+MEANP_S2_CENTRE_C4           28%
+MEANP_S2_CNNADA_C1           52%
+MEANP_S2_CNNADA_C2           31%
+MEANP_S2_CNNADA_C3           41%
+MEANP_S2_CNNADA_C4           23%
+MEANP_S2_CNN_C1              53%
+MEANP_S2_CNN_C2              40%
+MEANP_S2_CNN_C3              34%
+MEANP_S2_CNN_C4              50%
+MEANP_S2_DINO_C1             47%
+MEANP_S2_DINO_C2             49%
+MEANP_S2_DINO_C3             57%
+MEANP_S2_DINO_C4             44%
+MEANP_S2_DLR_C1              34%
+MEANP_S2_DLR_C2              57%
+MEANP_S2_DLR_C3              45%
+MEANP_S2_DLR_C4              42%
+MEANP_S2_LATE_C1             39%
+MEANP_S2_LATE_C2             52%
+MEANP_S2_LATE_C3             49%
+MEANP_S2_LATE_C4             51%
+MEANP_S2_R50_C1              44%
+MEANP_S2_R50_C2              47%
+MEANP_S2_R50_C3              57%
+MEANP_S2_R50_C4              54%
+MEANP_S2_RADIT_C1            44%
+MEANP_S2_RADIT_C2            54%
+MEANP_S2_RADIT_C3            57%
+MEANP_S2_RADIT_C4            49%
+MEANP_S2_RAD_C1              34%
+MEANP_S2_RAD_C2              54%
+MEANP_S2_RAD_C3              42%
+MEANP_S2_RAD_C4              49%
+MEANP_S2_SIZE_C1             43%
+MEANP_S2_SIZE_C2             59%
+MEANP_S2_SIZE_C3             51%
+MEANP_S2_SIZE_C4             52%
+MEANP_S3_BCLIP_C2            38%
+MEANP_S3_BCLIP_C3            11%
+MEANP_S3_BCLIP_C4            34%
+MEANP_S3_CENTRE_C2           19%
+MEANP_S3_CENTRE_C3           19%
+MEANP_S3_CENTRE_C4           19%
+MEANP_S3_CNN_C2              25%
+MEANP_S3_CNN_C3              13%
+MEANP_S3_CNN_C4              34%
+MEANP_S3_DINO_C2             51%
+MEANP_S3_DINO_C3             47%
+MEANP_S3_DINO_C4             46%
+MEANP_S3_DLR_C2              52%
+MEANP_S3_DLR_C3              26%
+MEANP_S3_DLR_C4              42%
+MEANP_S3_LATE_C2             51%
+MEANP_S3_LATE_C3             38%
+MEANP_S3_LATE_C4             47%
+MEANP_S3_R50_C2              53%
+MEANP_S3_R50_C3              54%
+MEANP_S3_R50_C4              53%
+MEANP_S3_RADIT_C2            57%
+MEANP_S3_RADIT_C3            51%
+MEANP_S3_RADIT_C4            54%
+MEANP_S3_RAD_C2              49%
+MEANP_S3_RAD_C3              23%
+MEANP_S3_RAD_C4              41%
+MEANP_S3_SIZE_C2             53%
+MEANP_S3_SIZE_C3             52%
+MEANP_S3_SIZE_C4             53%
+NB30_ALL                     0.013
+NB30_CNN                     0.082
+NB30_DLR                     0.152
+NB30_RAD                     0.134
+NB30_SIZE                    0.033
+NOW_A_S1_RAD                 0.818
+N_FEAT_IT                    752
+N_FEAT_PT                    739
+N_FINAL_FEAT                 10
+N_FINAL_PT                   5
+N_FINAL_SHAPE                1
+N_FINAL_SIZECORR             4
+N_FREQ50                     3
+N_FREQ_ANY                   51
+N_L5_CONFIGS                 126
+N_MIBC                       85
+N_MODELS_TOTAL               32
+N_MULTI                      27
+N_NMIBC                      190
+N_PATIENTS                   221
+N_PLACEHOLDER_FEAT           11
+N_PLACEHOLDER_TUM            2
+N_SEL_SIZECORR               30
+N_TUMOURS                    275
+PI_BCLIP                     0.45–0.87
+PI_CENTRE                    nan–nan
+PI_CNN                       0.54–0.87
+PI_CNNADA                    0.54–0.87
+PI_DINO                      0.40–0.93
+PI_DLR                       0.65–0.92
+PI_LATE                      0.64–0.94
+PI_R50                       0.52–0.89
+PI_RAD                       0.62–0.91
+PI_RADIT                     0.59–0.89
+PI_SIZE                      0.64–0.92
+PREV                         0.31
+PREV_C1                      19%
+PREV_C2                      52%
+PREV_C3                      41%
+PREV_C4                      49%
+PREV_PCT                     30.9%
+PREV_RANGE                   19–52%
+PSIZE_S1_BCLIP               *p* = 0.001
+PSIZE_S1_CNN                 *p* = 0.57
+PSIZE_S1_DINO                *p* = 0.04
+PSIZE_S1_DLR                 *p* = 0.62
+PSIZE_S1_LATE                *p* = 0.73
+PSIZE_S1_R50                 *p* = 0.03
+PSIZE_S1_RAD                 *p* = 0.91
+PSIZE_S1_RADIT               *p* = 0.32
+PSIZE_S2_BCLIP               *p* = 0.001
+PSIZE_S2_CNN                 *p* < 0.001
+PSIZE_S2_CNNADA              *p* < 0.001
+PSIZE_S2_DINO                *p* = 0.007
+PSIZE_S2_DLR                 *p* = 0.86
+PSIZE_S2_LATE                *p* = 0.45
+PSIZE_S2_R50                 *p* = 0.04
+PSIZE_S2_RAD                 *p* = 0.71
+PSIZE_S2_RADIT               *p* = 0.06
+PSIZE_S3_BCLIP               *p* = 0.003
+PSIZE_S3_CNN                 *p* = 0.49
+PSIZE_S3_DINO                *p* = 0.07
+PSIZE_S3_DLR                 *p* = 0.03
+PSIZE_S3_LATE                *p* = 0.22
+PSIZE_S3_R50                 *p* = 0.006
+PSIZE_S3_RAD                 *p* = 0.07
+PSIZE_S3_RADIT               *p* = 0.11
+RAD_L2_A                     0.85
+RAD_L2_AUC                   0.85 (95% CI 0.80–0.89)
+RAD_L2_D                     +0.03 (95% CI +0.01 to +0.05)
+RAD_L2_DS                    +0.03
+RAD_L3_A                     0.90
+RAD_L3_AUC                   0.90 (95% CI 0.87–0.94)
+RAD_L3_D                     +0.08 (95% CI +0.06 to +0.11)
+RAD_L3_DS                    +0.08
+RAD_L4_A                     0.88
+RAD_L4_AUC                   0.88 (95% CI 0.84–0.91)
+RAD_L5_A                     0.85
+RAD_L5_AUC                   0.85 (95% CI 0.81–0.90)
+RAD_L5_D                     +0.02 (95% CI −0.01 to +0.04)
+RAD_L5_DS                    +0.02
+RAD_L7H2_A                   0.69
+RAD_L7H2_AUC                 0.69 (95% CI 0.61–0.76)
+RAD_L7H2_D                   −0.13 (95% CI −0.19 to −0.07)
+RAD_L7H2_DS                  −0.13
+RAD_L7H3_A                   0.72
+RAD_L7H3_AUC                 0.72 (95% CI 0.65–0.78)
+RAD_L7H3_D                   −0.10 (95% CI −0.16 to −0.04)
+RAD_L7H3_DS                  −0.10
+RAD_L7S1H2_A                 0.76
+RAD_L7S1H2_AUC               0.76 (95% CI 0.71–0.81)
+RAD_L7S1H2_D                 −0.06 (95% CI −0.09 to −0.03)
+RAD_L7S1H2_DS                −0.06
+RAD_L7S1H3_A                 0.85
+RAD_L7S1H3_AUC               0.85 (95% CI 0.81–0.89)
+RAD_L7S1H3_D                 +0.03 (95% CI −0.01 to +0.07)
+RAD_L7S1H3_DS                +0.03
+RAD_LOCOH1_A                 0.81
+RAD_LOCOH1_AUC               0.81 (95% CI 0.75–0.86)
+RAD_LOCOH1_D                 −0.01 (95% CI −0.04 to +0.02)
+RAD_LOCOH1_DS                −0.01
+RAD_LOCO_A                   0.82
+RAD_LOCO_AUC                 0.82 (95% CI 0.76–0.87)
+RAD_NOICC_A                  0.82
+RAD_NOICC_AUC                0.82 (95% CI 0.78–0.87)
+RAD_REF01_A                  0.84
+RAD_REF01_AUC                0.84 (95% CI 0.79–0.89)
+RAD_STRICT_A                 0.82
+RAD_STRICT_AUC               0.82 (95% CI 0.77–0.87)
+RE_A_BCLIP                   0.70
+RE_A_CENTRE                  nan
+RE_A_CNN                     0.74
+RE_A_CNNADA                  0.74
+RE_A_DINO                    0.75
+RE_A_DLR                     0.83
+RE_A_LATE                    0.83
+RE_A_R50                     0.74
+RE_A_RAD                     0.81
+RE_A_RADIT                   0.78
+RE_A_SIZE                    0.82
+RE_BCLIP                     0.70 (95% CI 0.55–0.82)
+RE_CENTRE                    nan (95% CI nan–nan)
+RE_CNN                       0.74 (95% CI 0.60–0.84)
+RE_CNNADA                    0.74 (95% CI 0.59–0.84)
+RE_DINO                      0.75 (95% CI 0.57–0.87)
+RE_DLR                       0.83 (95% CI 0.70–0.91)
+RE_LATE                      0.83 (95% CI 0.70–0.92)
+RE_R50                       0.74 (95% CI 0.60–0.85)
+RE_RAD                       0.81 (95% CI 0.67–0.89)
+RE_RADIT                     0.78 (95% CI 0.65–0.87)
+RE_SIZE                      0.82 (95% CI 0.70–0.90)
+RHO_MEANP_S2_BCLIP           −0.2
+RHO_MEANP_S2_CENTRE          −1.0
+RHO_MEANP_S2_CNN             −0.4
+RHO_MEANP_S2_CNNADA          −0.8
+RHO_MEANP_S2_DINO            0.0
+RHO_MEANP_S2_DLR             0.8
+RHO_MEANP_S2_LATE            1.0
+RHO_MEANP_S2_R50             0.2
+RHO_MEANP_S2_RAD             1.0
+RHO_MEANP_S2_RADIT           0.4
+RHO_MEANP_S2_SIZE            1.0
+RHO_MEANP_S3_BCLIP           1.0
+RHO_MEANP_S3_CENTRE          nan
+RHO_MEANP_S3_CNN             0.5
+RHO_MEANP_S3_DINO            0.5
+RHO_MEANP_S3_DLR             1.0
+RHO_MEANP_S3_LATE            1.0
+RHO_MEANP_S3_R50             −1.0
+RHO_MEANP_S3_RAD             1.0
+RHO_MEANP_S3_RADIT           1.0
+RHO_MEANP_S3_SIZE            1.0
+RILEY_N10                    350
+RILEY_N10_EVENTS             106
+RILEY_R2                     0.23
+RUN1_A_S1_RAD                0.822
+RUN1_H3_AUC                  0.00
+RUN1_H3_CENTRE               C4
+RUN1_MAXDIFF_S1              0.015
+RUN1_MAXDIFF_S23             0.000
+S2_MAX_ANY                   0.85
+S2_MAX_NAME                  late fusion
+SENS_S1_BCLIP                0.68
+SENS_S1_DINO                 0.70
+SENS_S1_DLR                  0.71
+SENS_S1_R50                  0.71
+SENS_S1_RAD                  0.73
+SENS_S1_RADIT                0.72
+SENS_S1_SIZE                 0.74
+SENS_S2_BCLIP                0.65
+SENS_S2_DINO                 0.73
+SENS_S2_DLR                  0.75
+SENS_S2_R50                  0.80
+SENS_S2_RAD                  0.73
+SENS_S2_RADIT                0.68
+SENS_S2_SIZE                 0.69
+SENS_S3_BCLIP                0.45
+SENS_S3_DINO                 0.44
+SENS_S3_DLR                  0.62
+SENS_S3_R50                  0.82
+SENS_S3_RAD                  0.62
+SENS_S3_RADIT                0.80
+SENS_S3_SIZE                 0.85
+SHARE_SEL_SIZECORR           59%
+SLOPE_S1_BCLIP               0.52
+SLOPE_S1_CENTRE              0.99
+SLOPE_S1_CNN                 0.29
+SLOPE_S1_DINO                0.62
+SLOPE_S1_DLR                 0.69
+SLOPE_S1_LATE                1.30
+SLOPE_S1_R50                 0.83
+SLOPE_S1_RAD                 0.72
+SLOPE_S1_RADIT               1.05
+SLOPE_S1_SIZE                1.48
+SLOPE_S2_BCLIP               0.69
+SLOPE_S2_CENTRE              −1.61
+SLOPE_S2_CNN                 0.20
+SLOPE_S2_CNNADA              0.13
+SLOPE_S2_DINO                0.48
+SLOPE_S2_DLR                 0.82
+SLOPE_S2_LATE                1.99
+SLOPE_S2_R50                 0.97
+SLOPE_S2_RAD                 0.93
+SLOPE_S2_RADIT               1.90
+SLOPE_S2_SIZE                2.38
+SLOPE_S3_BCLIP               0.14
+SLOPE_S3_CNN                 0.25
+SLOPE_S3_DINO                1.91
+SLOPE_S3_DLR                 0.18
+SLOPE_S3_LATE                1.32
+SLOPE_S3_R50                 0.89
+SLOPE_S3_RAD                 0.15
+SLOPE_S3_RADIT               0.29
+SLOPE_S3_SIZE                3.60
+SPEC_S1_BCLIP                0.60
+SPEC_S1_DINO                 0.68
+SPEC_S1_DLR                  0.80
+SPEC_S1_R50                  0.65
+SPEC_S1_RAD                  0.78
+SPEC_S1_RADIT                0.78
+SPEC_S1_SIZE                 0.76
+SPEC_S2_BCLIP                0.67
+SPEC_S2_DINO                 0.68
+SPEC_S2_DLR                  0.80
+SPEC_S2_R50                  0.52
+SPEC_S2_RAD                  0.79
+SPEC_S2_RADIT                0.79
+SPEC_S2_SIZE                 0.81
+SPEC_S3_BCLIP                0.70
+SPEC_S3_DINO                 0.78
+SPEC_S3_DLR                  0.73
+SPEC_S3_R50                  0.43
+SPEC_S3_RAD                  0.82
+SPEC_S3_RADIT                0.50
+SPEC_S3_SIZE                 0.55
+TOPFREQ_FEAT                 IT Shape MinorAxisLength
+TOPFREQ_FEAT_PROSE           intratumoural minor axis length
+TOPFREQ_FRAC                 68%
+TOPFREQ_RHO                  0.98
+TOP_FEAT_1                   PT wav-LL GLCM Inverse variance
+TOP_FEAT_2                   IT Shape MinorAxisLength
+TOP_FEAT_3                   IT LoGσ1 GLSZM ZoneEntropy
+VOL_MIBC                     13.8
+VOL_NMIBC                    1.9
+VOL_RATIO                    7
+WC_S1_BCLIP                  0.69
+WC_S1_CENTRE                 0.48
+WC_S1_CNN                    0.80
+WC_S1_DINO                   0.73
+WC_S1_DLR                    0.81
+WC_S1_LATE                   0.80
+WC_S1_R50                    0.72
+WC_S1_RAD                    0.80
+WC_S1_RADIT                  0.79
+WC_S1_SIZE                   0.80

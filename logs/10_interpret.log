@@ -1,0 +1,2 @@
+OMP: Warning #179: Function Can't set size of /tmp file failed:
+final model features: ['PT_wavelet-LL_glcm_InverseVariance', 'IT_original_shape_MinorAxisLength', 'IT_log-sigma-1-0-mm-3D_glszm_ZoneEntropy', 'IT_log-sigma-1-0-mm-3D_ngtdm_Busyness', 'IT_log-sigma-2-0-mm-3D_firstorder_10Percentile', 'PT_original_glcm_ClusterShade', 'PT_log-sigma-1-0-mm-3D_ngtdm_Busyness', 'PT_log-sigma-1-0-mm-3D_glcm_ClusterShade', 'IT_log-sigma-1-0-mm-3D_glcm_ClusterShade', 'PT_original_firstorder_Skewness'] {'C': 0.1}

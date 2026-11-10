@@ -1,0 +1,24 @@
+OMP: Warning #179: Function Can't set size of /tmp file failed:
+OMP: Warning #179: Function Can't set size of /tmp file failed:
+OMP: Warning #179: Function Can't set size of /tmp file failed:
+OMP: Warning #179: Function Can't set size of /tmp file failed:
+20/275 cases, 95s
+40/275 cases, 212s
+60/275 cases, 334s
+80/275 cases, 457s
+100/275 cases, 615s
+120/275 cases, 729s
+140/275 cases, 861s
+160/275 cases, 991s
+180/275 cases, 1159s
+200/275 cases, 1391s
+220/275 cases, 1717s
+240/275 cases, 2141s
+260/275 cases, 2397s
+IT orig (275, 758) missing rows: 0
+IT ero (275, 758) missing rows: 0
+IT dil (275, 758) missing rows: 0
+PT orig (275, 744) missing rows: 0
+PT ero (275, 744) missing rows: 0
+PT dil (275, 744) missing rows: 0
+failures: 0; total 2767s
