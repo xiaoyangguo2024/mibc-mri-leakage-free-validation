@@ -1,0 +1,21 @@
+# Local environments and caches (not part of the public release)
+env/py/
+env/cache/
+env/weights/hf/
+env/weights/torch/
+env/weights/**/*.safetensors
+env/weights/**/*.bin
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# Raw and interim imaging — obtain FedBCa from the original Zenodo record
+data/raw/
+data/interim/
+
+# Fine-tuned CNN weights (written again by code/07_cnn.py; each file is ~45 MB)
+results/models/*.pt
+
+# Local secrets
+.env

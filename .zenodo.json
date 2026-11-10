@@ -1,0 +1,51 @@
+{
+  "title": "Code and derived data for: Radiomics and deep learning for muscle-invasive bladder cancer on MRI: how much survives leakage-free validation?",
+  "upload_type": "software",
+  "description": "Analysis code (Python), analysis plan (written before model training), derived tables, out-of-fold predictions, figures and manuscript sources for a leakage-aware benchmark of T2-weighted MRI radiomics and deep learning for predicting muscle invasion in bladder cancer on the public FedBCa dataset (Zenodo 10409145). No images are redistributed.",
+  "creators": [
+    {
+      "name": "Guo, Xiaoyang",
+      "affiliation": "Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, Guangdong, China",
+      "orcid": "0009-0008-3939-7267"
+    },
+    {
+      "name": "Wu, Mingjie",
+      "affiliation": "Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, Guangdong, China"
+    },
+    {
+      "name": "Sun, Zhiyue",
+      "affiliation": "Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, Guangdong, China",
+      "orcid": "0009-0001-2613-4571"
+    },
+    {
+      "name": "Liao, Zhenghang",
+      "affiliation": "Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, Guangdong, China"
+    },
+    {
+      "name": "Zeng, Ke",
+      "affiliation": "Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, Guangdong, China",
+      "orcid": "0009-0008-3864-7594"
+    },
+    {
+      "name": "Wen, Bo",
+      "affiliation": "Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, Guangdong, China",
+      "orcid": "0009-0009-9563-2089"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bladder cancer",
+    "magnetic resonance imaging",
+    "radiomics",
+    "deep learning",
+    "data leakage",
+    "external validation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.10409145",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ]
+}
