@@ -4,7 +4,7 @@
 # Excluded: raw and preprocessed images (data/raw, data/interim; obtain FedBCa from Zenodo 10409145),
 # the Python environment (env/, except the pinned package lists and the weight manifest), CNN weight files
 # (results/models/*.pt, 45 MB each; written again by code/07_cnn.py), tumour-centred MRI crops
-# (data/processed/gradcam_examples.npz; written again by code/10_interpret.py), manuscript build outputs and session notes.
+# (data/processed/gradcam_examples.npz; written again by code/10_interpret.py), manuscript build outputs and local working files.
 set -euo pipefail
 cd "$(dirname "$0")"
 NAME="BLCA_MRI_MIBC_code_$(date +%Y%m%d)"
