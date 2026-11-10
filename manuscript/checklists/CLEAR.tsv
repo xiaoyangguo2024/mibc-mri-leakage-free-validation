@@ -1,0 +1,59 @@
+Section	Item	Topic	Reported	Where
+Title	1	Relevant title, specifying the radiomic methodology	Yes	Title
+Abstract	2	Structured summary	Yes	Abstract
+Keywords	3	Relevant keywords for radiomics	Yes	Keywords
+Introduction	4	Scientific or clinical background	Yes	Introduction
+Introduction	5	Rationale for using a radiomic approach	Yes	Introduction
+Introduction	6	Study objectives	Yes	Introduction
+Methods: design	7	Adherence to guidelines or checklists	Yes	Methods (TRIPOD+AI, CLEAR)
+Methods: design	8	Ethical details	Yes	Declarations
+Methods: design	9	Sample size calculation	Yes	Supplementary Methods S8
+Methods: design	10	Study nature (retrospective/prospective)	Yes	Methods (retrospective secondary analysis)
+Methods: design	11	Eligibility criteria	Yes	Supplementary Methods S1
+Methods: design	12	Flowchart for technical pipeline	Yes	Fig. 1a
+Methods: data	13	Data source	Yes	Methods (public FedBCa)
+Methods: data	14	Data overlap	Yes	Introduction/Discussion (prior studies on the same dataset)
+Methods: data	15	Data split methodology	Yes	Methods, Leakage-free evaluation protocols
+Methods: data	16	Imaging protocol	Yes	Table 1 (TR, TE, slice thickness and gap reported by the data providers; measured spacing of released images)
+Methods: data	17	Definition of non-radiomic predictor variables	Yes	Tumour-size comparator (Methods, Comparators)
+Methods: data	18	Definition of the reference standard	Yes	Methods (histopathological T stage of TURBT or cystectomy specimens)
+Methods: segmentation	19	Segmentation strategy	Yes	Methods; Supplementary Methods S1 (manual, by data providers)
+Methods: segmentation	20	Details of operators performing segmentation	Yes	Methods (two radiologists with 14 years of experience, as reported by the data providers)
+Methods: pre-processing	21	Image pre-processing details	Yes	Methods; Supplementary Methods S2
+Methods: pre-processing	22	Resampling method and parameters	Yes	Supplementary Methods S2
+Methods: pre-processing	23	Discretisation method and parameters	Yes	Supplementary Methods S3 (bin width 5)
+Methods: pre-processing	24	Image types	Yes	Supplementary Methods S3
+Methods: feature extraction	25	Feature extraction method	Yes	Methods; Supplementary Methods S3 (PyRadiomics 3.1.0)
+Methods: feature extraction	26	Feature classes	Yes	Supplementary Methods S3
+Methods: feature extraction	27	Number of features	Yes	Methods; Supplementary Methods S3
+Methods: feature extraction	28	Default configuration statement for remaining parameters	Yes	Supplementary Methods S3 (parameter files released)
+Methods: data preparation	29	Handling of missing data	Yes	No missing images, masks or labels (Results); radiomics features with undefined values (PyRadiomics placeholder) excluded (Supplementary Methods S3)
+Methods: data preparation	30	Details of class imbalance	Yes	Supplementary Methods S4 (class weights)
+Methods: data preparation	31	Segmentation reliability analysis	Yes	Perturbed-mask ICC (Supplementary Methods S3)
+Methods: data preparation	32	Feature scaling details	Yes	Supplementary Methods S3 (z-score within training folds)
+Methods: data preparation	33	Dimension reduction details	Yes	Supplementary Methods S3
+Methods: modelling	34	Algorithm details	Yes	Methods; Supplementary Methods S4
+Methods: modelling	35	Training and tuning details	Yes	Supplementary Methods S4; Supplementary Table S4
+Methods: modelling	36	Handling of confounders	Yes	Centre confounding analysed (L8; Fig. 4); tumour-size comparator
+Methods: modelling	37	Model selection strategy	Yes	Pre-specified primary models (Methods)
+Methods: evaluation	38	Testing technique	Yes	Methods (internal CV, leave-one-centre-out, single-centre development)
+Methods: evaluation	39	Performance metrics and rationale	Yes	Methods, Statistical analysis
+Methods: evaluation	40	Uncertainty evaluation	Yes	Patient-cluster bootstrap CIs (Methods)
+Methods: evaluation	41	Statistical performance comparison	Yes	Paired cluster bootstrap; DeLong for reference (Methods)
+Methods: evaluation	42	Comparison with non-radiomic and combined methods	Yes	Tumour size, deep learning and fusion models (Methods)
+Methods: evaluation	43	Interpretability and explainability methods	Yes	SHAP, Grad-CAM, region occlusion (Methods)
+Results	44	Baseline demographic and clinical characteristics	Yes	Table 1 (age, sex, T stage and grade as reported by the data providers)
+Results	45	Flowchart for eligibility criteria	Yes	Fig. 1b (all released tumours included)
+Results	46	Feature statistics	Yes	Fig. 5b; Supplementary Table S12
+Results	47	Model performance evaluation	Yes	Table 2; Fig. 2
+Results	48	Comparison with non-radiomic and combined approaches	Yes	Table 2; Fig. 2
+Discussion	49	Overview of important findings	Yes	Discussion
+Discussion	50	Previous works with differences	Yes	Discussion
+Discussion	51	Practical implications	Yes	Discussion
+Discussion	52	Strengths and limitations	Yes	Discussion
+Open science	53	Sharing images with segmentations	Yes	Public dataset (Zenodo 10409145)
+Open science	54	Sharing radiomic feature data	Yes	Code release (feature tables regenerated by scripts; predictions released)
+Open science	55	Sharing pre-processing scripts or settings	Yes	Code release
+Open science	56	Sharing source code for modelling	Yes	Code release
+Open science	57	Sharing final model files	Yes	Code release (fitted final radiomics model)
+Open science	58	Sharing a ready-to-use system	No	Not developed (research code only)

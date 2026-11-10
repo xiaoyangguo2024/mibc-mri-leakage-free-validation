@@ -1,0 +1,53 @@
+Section	Item	Topic (paraphrased)	Reported	Where
+Title	1	Identifies development/evaluation of a prediction model, population and outcome	Yes	Title
+Abstract	2	Structured abstract (TRIPOD+AI for Abstracts)	Yes	Abstract
+Introduction	3a	Healthcare context and rationale	Yes	Introduction, paragraphs 1–2
+Introduction	3b	Target population, intended purpose and users	Yes	Introduction; Discussion (intended use)
+Introduction	3c	Known health inequalities	No (not assessable)	No sociodemographic data in the public dataset; Discussion, limitations
+Introduction	4	Objectives (development and/or evaluation)	Yes	Introduction, final paragraph
+Methods	5a	Data sources for development and evaluation	Yes	Methods, Study design and data; Supplementary Methods S1
+Methods	5b	Dates of data collection	Yes	Methods (November 2019 – July 2022, as reported by the data providers)
+Methods	6a	Setting, number and location of centres	Yes	Methods; Table 1 (four hospitals, four 3.0-T scanners)
+Methods	6b	Eligibility criteria	Yes	Methods (criteria of the data providers; all released tumours included)
+Methods	6c	Treatments received	n/a	Pre-treatment imaging; no treatment data
+Methods	7	Data pre-processing and quality checking	Yes	Methods, Image pre-processing; Supplementary Methods S1–S2
+Methods	8a	Outcome definition and timing	Yes	Methods (histopathological T stage of TURBT or cystectomy specimens; MIBC ≥ pT2)
+Methods	8b	Qualifications of outcome assessors	No (not available)	Pathologists' qualifications not reported by the data providers
+Methods	8c	Blinding of outcome assessment	No (not available)	Not reported by the data providers
+Methods	9a	Choice of candidate predictors	Yes	Methods, Models; Supplementary Methods S3
+Methods	9b	Definition and measurement of predictors	Yes	Methods, Models; Supplementary Methods S3, S5; code release
+Methods	9c	Subjective predictor measurement (segmentation)	Yes	Methods (manual masks by one radiologist, reviewed by a second); robustness by perturbed masks (ICC)
+Methods	10	Sample size	Yes	Methods, Statistical analysis; Supplementary Methods S8
+Methods	11	Missing data	Yes	No missing images, masks or labels (Results); radiomics features with undefined values excluded (Supplementary Methods S3)
+Methods	12a	Use of data for development and evaluation	Yes	Methods, Leakage-free evaluation protocols
+Methods	12b	Handling of predictors	Yes	Methods, Models; Supplementary Methods S3–S5
+Methods	12c	Model type, building steps, hyper-parameter tuning	Yes	Methods, Models; Supplementary Methods S3–S5; Supplementary Table S4
+Methods	12d	Heterogeneity across clusters (centres)	Yes	Methods, Statistical analysis (random-effects pooling)
+Methods	12e	Performance measures and plots	Yes	Methods, Statistical analysis
+Methods	12f	Model updating	n/a	No updating of the reported models; harmonisation/AdaBN only as audit variants; recalibration only to explain decision curves (Supplementary Methods S8)
+Methods	12g	How predictions were calculated for evaluation	Yes	Code release; Declarations
+Methods	13	Class imbalance methods	Yes	Class-weighted losses; SMOTE only as audit L4 (Supplementary Methods S4, S6)
+Methods	14	Fairness	No (not assessable)	No sociodemographic variables; Discussion, limitations
+Methods	15	Model output and thresholds	Yes	Probability of MIBC; threshold from training data (Methods; Supplementary Methods S4)
+Methods	16	Differences between development and evaluation data	Yes	Table 1; Fig. 1; Fig. 4
+Methods	17	Ethics approval	Yes	Declarations
+Open science	18a	Funding	Yes	Declarations
+Open science	18b	Conflicts of interest	Yes	Declarations
+Open science	18c	Protocol	Yes	Analysis plan, with the list of deviations, released with the code (Methods; Declarations)
+Open science	18d	Registration	No	Not registered
+Open science	18e	Data sharing	Yes	Declarations (public dataset)
+Open science	18f	Code sharing	Yes	Declarations
+Patient and public involvement	19	Patient and public involvement	Yes	None (secondary analysis of a public dataset)
+Results	20a	Flow of participants and outcome numbers	Yes	Results; Fig. 1; Table 1
+Results	20b	Characteristics overall and per data source	Yes	Table 1 (including age, sex, T stage and grade reported by the data providers)
+Results	20c	Comparison of development and evaluation data	Yes	Table 1; Fig. 1c; Fig. 4
+Results	21	Participants and events in each analysis	Yes	Table 2; Supplementary Tables S5 and S6
+Results	22	Full model specification	Yes	Code release, fitted final model file and coefficients (Supplementary Table S12)
+Results	23a	Performance with confidence intervals	Yes	Table 2; Fig. 2; Supplementary Tables S5–S8
+Results	23b	Heterogeneity across clusters	Yes	Fig. 2b; Supplementary Tables S6 and S7
+Results	24	Model updating results	n/a	No model updating
+Discussion	25	Overall interpretation	Yes	Discussion
+Discussion	26	Limitations	Yes	Discussion
+Discussion	27a	Handling of poor-quality or unavailable inputs	Yes	Discussion (requires T2WI and a tumour segmentation)
+Discussion	27b	User interaction and expertise	Yes	Discussion (manual segmentation)
+Discussion	27c	Next steps	Yes	Discussion
