@@ -1,0 +1,25 @@
+# Figure legends
+
+**Fig. 1** Study flow and cohort. **a** From the released dataset (all tumours analysed, no exclusions) to the analyses. All pre-processing steps are label-free; every data-dependent step was fitted inside the training data of each split. Bold: pre-specified primary models. **b** Tumours per centre by label, with the MIBC prevalence above each bar; tick labels give tumours / patients. **c** Tumour volume by centre and label (log scale); each point is one tumour; lines show the median and interquartile range. CV cross-validation, IT intratumoural, PT peritumoural, L2-LR L2-penalised logistic regression
+
+<!-- FIGURE: results/figures/Fig1_design_cohort.png -->
+
+**Fig. 2** Discrimination under leakage-free validation. **a** ROC curves of the pooled leave-one-centre-out (S2) predictions of the four primary models; the legend gives the pooled AUC (95% CIs in Table 2). **b** AUC in each held-out centre (squares, larger for centres with more tumours; lines, 95% CI), random-effects pooled AUC (diamond, Hartung–Knapp–Sidik–Jonkman 95% CI) and 95% prediction interval for a new centre (dotted line). **c** AUC under the three protocols for the primary (bold) and secondary models. The fine-tuned CNN was evaluated on the first S1 repeat. All CIs: 2,000 patient-level cluster bootstrap resamples
+
+<!-- FIGURE: results/figures/Fig2_strict_performance.png -->
+
+**Fig. 3** Leakage audit. **a** AUC of the strict reference (blue) and of variants with one evaluation flaw (red) for the radiomics model (IT+PT, L2-penalised logistic regression) and the fine-tuned CNN. Dashed lines mark AUCs published for this dataset: 0.87 (dataset publication, centralised ResNet-50) and 0.99 (highest published). Rows marked † are means of per-fold (or per-held-out-centre) test AUCs, without CI; the L4 row (*) is evaluated on real and synthetic tumours. **b** Difference from the reference above it (paired cluster bootstrap, 95% CI; open diamonds, plain differences of fold means). **c** Test AUCs of all {{N_L5_CONFIGS}} radiomics configurations (feature budget × classifier × hyper-parameters; mean of the first two S1 repeats), with the pre-specified model (blue) and the best configuration (red). **d** CNN test AUC after each training epoch in each fold, for patient-grouped cross-validation (tumour level) and for the slice-level split (slice level); circles mark the epoch chosen on validation data, stars the epoch with the highest test AUC
+
+<!-- FIGURE: results/figures/Fig3_leakage_audit.png -->
+
+**Fig. 4** Image features encode the acquiring centre. **a**, **b** t-SNE maps of radiomics features (**a**) and frozen DINOv2 features (**b**); colours indicate centres, filled triangles MIBC and open circles NMIBC. **c** Centre identification: macro-averaged one-versus-rest AUC (accuracy in brackets) of a four-class logistic regression predicting the centre from each feature set (patient-grouped five-fold cross-validation). **d** AUC in pooled cross-validation (S1; filled circles) versus the prevalence-weighted mean of within-centre AUCs (open circles) for the primary models and for the centre-prevalence model, which uses no image information
+
+<!-- FIGURE: results/figures/Fig4_centre_shortcut.png -->
+
+**Fig. 5** What the models use. **a** SHAP values of the radiomics model refitted on all tumours; colour shows the feature value. **b** Features most often selected across the 25 S1 training folds. **c** Grad-CAM maps of the fine-tuned CNN (largest-area slice) for the first two MIBC and the first two NMIBC tumours of the first S1 test fold, shown regardless of whether they were classified correctly; blue contour, tumour; yellow dashed contour, outer edge of the 3-mm peritumoural ring. **d** Grad-CAM enrichment (share of activation energy divided by share of image area) in the tumour and in the ring, per tumour; lines show the median and interquartile range; values above 1 indicate attention concentrated in the region. **e** CNN AUC (95% CI) when the ring, the tumour or everything outside the tumour was replaced by a Gaussian-blurred copy of the same image (σ = 8 pixels, at least 5 mm). FO first-order, GLCM grey-level co-occurrence matrix, GLDM grey-level dependence matrix, GLSZM grey-level size-zone matrix, IT intratumoural, LoGσ Laplacian-of-Gaussian filter with σ in mm, NGTDM neighbouring grey-tone difference matrix, PT peritumoural, wav-LL low-pass wavelet
+
+<!-- FIGURE: results/figures/Fig5_interpretability.png -->
+
+**Fig. 6** Calibration and clinical utility in held-out centres (S2). **a** Calibration curves by quintile of predicted risk (bars, 95% CI); calibration slopes were {{SLOPE_S2_RAD}} for radiomics, {{SLOPE_S2_CNN}} for the CNN, {{SLOPE_S2_DLR}} for fusion and {{SLOPE_S2_SIZE}} for size. **b** Mean predicted risk versus observed MIBC prevalence in each held-out centre; the diagonal marks agreement. **c** Decision curves: net benefit of the primary models compared with treating all or no tumours as MIBC
+
+<!-- FIGURE: results/figures/Fig6_calibration_dca.png -->
