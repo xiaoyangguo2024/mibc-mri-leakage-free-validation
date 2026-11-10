@@ -1,0 +1,8 @@
+OMP: Warning #179: Function Can't set size of /tmp file failed:
+Radiomics (IT+PT, all) {'macro_auc_ovr': 0.873, 'accuracy': 0.749, 'auc_C1': 0.871, 'auc_C2': 0.87, 'auc_C3': 0.929, 'auc_C4': 0.823}
+Radiomics, first-order only {'macro_auc_ovr': 0.86, 'accuracy': 0.742, 'auc_C1': 0.863, 'auc_C2': 0.845, 'auc_C3': 0.931, 'auc_C4': 0.802}
+Radiomics, shape only {'macro_auc_ovr': 0.669, 'accuracy': 0.578, 'auc_C1': 0.721, 'auc_C2': 0.733, 'auc_C3': 0.625, 'auc_C4': 0.597}
+Tumour size (2 features) {'macro_auc_ovr': 0.645, 'accuracy': 0.567, 'auc_C1': 0.712, 'auc_C2': 0.681, 'auc_C3': 0.583, 'auc_C4': 0.605}
+Deep: ResNet50_IN {'macro_auc_ovr': 0.796, 'accuracy': 0.644, 'auc_C1': 0.811, 'auc_C2': 0.813, 'auc_C3': 0.822, 'auc_C4': 0.736}
+Deep: DINOv2_B {'macro_auc_ovr': 0.835, 'accuracy': 0.709, 'auc_C1': 0.85, 'auc_C2': 0.843, 'auc_C3': 0.885, 'auc_C4': 0.762}
+Deep: BiomedCLIP {'macro_auc_ovr': 0.789, 'accuracy': 0.593, 'auc_C1': 0.784, 'auc_C2': 0.776, 'auc_C3': 0.858, 'auc_C4': 0.737}

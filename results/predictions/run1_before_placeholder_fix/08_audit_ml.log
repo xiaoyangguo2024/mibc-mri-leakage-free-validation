@@ -1,0 +1,105 @@
+S1_strict: 13s
+L2_tumour_split: 14s
+L3 selected on all data: ['PT_wavelet-LL_glcm_InverseVariance', 'IT_original_shape_MinorAxisLength', 'IT_log-sigma-1-0-mm-3D_glszm_ZoneEntropy', 'IT_log-sigma-1-0-mm-3D_ngtdm_Busyness', 'IT_log-sigma-2-0-mm-3D_firstorder_10Percentile', 'PT_original_glcm_ClusterShade', 'PT_log-sigma-1-0-mm-3D_ngtdm_Busyness', 'PT_log-sigma-1-0-mm-3D_glcm_ClusterShade', 'IT_log-sigma-1-0-mm-3D_glcm_ClusterShade', 'IT_original_ngtdm_Busyness']
+L3_selection_on_all: 1s
+L4_SMOTE_before_split: 17s
+L4_ref_noICC: 13s
+L5 r0 f0: 17s
+L5 r0 f1: 34s
+L5 r0 f2: 53s
+L5 r0 f3: 68s
+L5 r0 f4: 86s
+L5 r1 f0: 104s
+L5 r1 f1: 121s
+L5 r1 f2: 138s
+L5 r1 f3: 156s
+L5 r1 f4: 173s
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+L7 LOCO C1 done
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+L7 LOCO C2 done
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+L7 LOCO C3 done
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+L7 LOCO C4 done
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+L7_S1_H2_all_label_free: 18s
+L7_S1_H3_all_with_label: 17s
+L7_S1_H0_none_noICC: 13s
+L2_tumour_split                  mean AUC over repeats 0.851
+L3_selection_on_all              mean AUC over repeats 0.903
+L4_SMOTE_before_split            mean AUC over repeats 0.879
+L4_ref_noICC                     mean AUC over repeats 0.824
+L7_LOCO_H0_none                  mean AUC over repeats 0.818
+L7_LOCO_H1_train_only            mean AUC over repeats 0.808
+L7_LOCO_H2_all_label_free        mean AUC over repeats 0.688
+L7_LOCO_H3_all_with_label        mean AUC over repeats 0.647
+L7_S1_H0_none_noICC              mean AUC over repeats 0.824
+L7_S1_H2_all_label_free          mean AUC over repeats 0.767
+L7_S1_H3_all_with_label          mean AUC over repeats 0.857
+S1_strict                        mean AUC over repeats 0.820
