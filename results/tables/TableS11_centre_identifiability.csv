@@ -1,0 +1,8 @@
+feature_set,n_features,macro_auc_ovr,accuracy,auc_C1,auc_C2,auc_C3,auc_C4
+"Radiomics (IT+PT, all)",1491,0.865,0.7491,0.871,0.8652,0.9288,0.7949
+"Radiomics, first-order only",288,0.8604,0.7418,0.8633,0.8454,0.9309,0.802
+"Radiomics, shape only",14,0.669,0.5782,0.7211,0.7327,0.6249,0.5971
+Tumour size (2 features),2,0.6452,0.5673,0.7121,0.6814,0.5827,0.6048
+Deep: ResNet50_IN,2048,0.7957,0.6436,0.8109,0.8134,0.8223,0.7361
+Deep: DINOv2_B,768,0.8351,0.7091,0.8495,0.8433,0.8854,0.7621
+Deep: BiomedCLIP,512,0.7887,0.5927,0.7836,0.7755,0.8584,0.7374

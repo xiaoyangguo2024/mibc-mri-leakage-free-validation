@@ -1,0 +1,13 @@
+Protocol,Model,AUC (95% CI),ΔAUC vs tumour size (95% CI),Pooled per-centre AUC (95% CI) [95% PI],Sensitivity,Specificity,Brier score,Calibration slope
+S1 Patient-grouped CV (internal),Radiomics (IT+PT),0.82 (0.77–0.86),0.00 (−0.04 to +0.03),,0.73,0.78,0.171,0.72
+S1 Patient-grouped CV (internal),Fine-tuned CNN ‡,0.82 (0.76–0.87),−0.02 (−0.08 to +0.04),,–,–,0.207,0.29
+S1 Patient-grouped CV (internal),Deep-radiomics fusion,0.83 (0.78–0.87),+0.01 (−0.03 to +0.04),,0.71,0.80,0.164,0.69
+S1 Patient-grouped CV (internal),Tumour size,0.82 (0.77–0.87),Reference,,0.74,0.76,0.182,1.48
+S2 Leave-one-centre-out (external; primary),Radiomics (IT+PT),0.83 (0.77–0.88),−0.01 (−0.06 to +0.04),0.81 (0.67–0.89) [0.62–0.91],0.73,0.79,0.164,0.93
+S2 Leave-one-centre-out (external; primary),Fine-tuned CNN,0.68 (0.61–0.76),−0.15 (−0.22 to −0.07),0.74 (0.60–0.84) [0.54–0.87],–,–,0.286,0.20
+S2 Leave-one-centre-out (external; primary),Deep-radiomics fusion,0.83 (0.77–0.88),0.00 (−0.05 to +0.04),0.83 (0.70–0.91) [0.65–0.92],0.75,0.80,0.154,0.82
+S2 Leave-one-centre-out (external; primary),Tumour size,0.83 (0.78–0.89),Reference,0.82 (0.70–0.90) [0.64–0.92],0.69,0.81,0.187,2.38
+"S3 Developed on C1, tested on C2–C4",Radiomics (IT+PT),0.73 (0.62–0.82),−0.09 (−0.19 to +0.01),,0.62,0.82,0.220,0.15
+"S3 Developed on C1, tested on C2–C4",Fine-tuned CNN,0.78 (0.68–0.86),−0.04 (−0.14 to +0.07),,–,–,0.302,0.25
+"S3 Developed on C1, tested on C2–C4",Deep-radiomics fusion,0.72 (0.61–0.81),−0.10 (−0.19 to −0.01),,0.62,0.73,0.226,0.18
+"S3 Developed on C1, tested on C2–C4",Tumour size,0.81 (0.73–0.89),Reference,,0.85,0.55,0.209,3.60

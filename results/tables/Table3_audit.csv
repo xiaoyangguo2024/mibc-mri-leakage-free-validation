@@ -1,0 +1,26 @@
+Model,Variant,What changes,Unit,AUC (95% CI),ΔAUC vs reference (95% CI)
+"Radiomics (IT+PT), LR",Strict (patient-grouped CV),Reference: all fitting inside patient-grouped training folds,tumour,0.82 (0.77–0.87),
+"Radiomics (IT+PT), LR",L2 Tumour-level split (patients ignored),Tumours of one patient may be split across training and test,tumour,0.85 (0.80–0.89),+0.03 (+0.01 to +0.05)
+"Radiomics (IT+PT), LR",L3 Feature selection on all data,Feature selection run once on all tumours before CV,tumour,0.90 (0.87–0.94),+0.08 (+0.06 to +0.11)
+"Radiomics (IT+PT), LR","Strict, no ICC filter (reference for L4/L7-S1)",Reference for L4 and L7 (no segmentation-robustness filter),tumour,0.82 (0.78–0.87),
+"Radiomics (IT+PT), LR",L4 SMOTE before split,Synthetic MIBC tumours created before splitting (unpaired),tumour,0.88 (0.84–0.91),
+"Radiomics (IT+PT), LR","Strict, repeats 0-1 (reference for L5)","Reference for L5 (pre-specified model, first two repeats)",tumour,0.84 (0.79–0.89),
+"Radiomics (IT+PT), LR",L5 Best of 126 configurations (picked on test AUC),"Best of all classifier, hyper-parameter and feature-number configurations by test AUC",tumour,0.85 (0.81–0.90),+0.02 (−0.01 to +0.04)
+"Radiomics (IT+PT), LR","L7 ComBat on all data, label-free (pooled CV)",ComBat fitted on all tumours (transductive),tumour,0.76 (0.71–0.81),−0.06 (−0.09 to −0.03)
+"Radiomics (IT+PT), LR","L7 ComBat on all data, label as covariate (pooled CV)",ComBat fitted on all tumours with the label as covariate,tumour,0.85 (0.81–0.89),+0.03 (−0.01 to +0.07)
+"Radiomics (IT+PT), LR","LOCO, no harmonisation","Reference: leave-one-centre-out, no harmonisation",tumour,0.82 (0.76–0.87),
+"Radiomics (IT+PT), LR","LOCO, ComBat on training centres only",ComBat fitted on training centres only (deployable),tumour,0.81 (0.75–0.86),−0.01 (−0.04 to +0.02)
+"Radiomics (IT+PT), LR","L7 LOCO, ComBat incl. test centre, label-free",ComBat fitted including the unlabelled test centre,tumour,0.69 (0.61–0.76),−0.13 (−0.19 to −0.07)
+"Radiomics (IT+PT), LR","L7 LOCO, ComBat incl. test centre, label as covariate",ComBat including the test centre and its labels,tumour,0.72 (0.65–0.78),−0.10 (−0.16 to −0.04)
+Fine-tuned CNN,"Strict (patient-grouped CV), tumour level","Reference: patient-grouped CV, tumour-level score",tumour,0.82 (0.76–0.87),
+Fine-tuned CNN,L2 Tumour-level split (patients ignored),Tumours of one patient may be split across training and test,tumour,0.81 (0.75–0.87),−0.01 (−0.05 to +0.03)
+Fine-tuned CNN,"Strict (patient-grouped CV), slice level",Same strict predictions scored per slice (reference for L1),slice,0.81 (0.75–0.86),
+Fine-tuned CNN,"L1 Slice-level random split (10-fold), slice level","Slices split at random, scored per slice",slice,0.99 (0.98–0.99),+0.18 (+0.14 to +0.23)
+Fine-tuned CNN,Epoch chosen on validation (fold-mean test AUC),Reference for L5: fold-mean test AUC at the validation-chosen epoch,tumour,0.82,
+Fine-tuned CNN,L5 Epoch chosen on test (fold-mean test AUC),Epoch picked by test AUC (fold mean),tumour,0.83,+0.01 (fold means)
+Fine-tuned CNN,"L1 Slice-level split, epoch chosen on validation (fold-mean test AUC)","L1, fold-mean test AUC (reference for L1+L5)",slice,0.99,
+Fine-tuned CNN,"L1+L5 Slice-level split, epoch chosen on test (fold-mean test AUC)",L1 with the epoch picked by test AUC (fold mean),slice,0.99,0.00 (fold means)
+Fine-tuned CNN,"LOCO, standard",Reference: leave-one-centre-out,tumour,0.68 (0.61–0.76),
+Fine-tuned CNN,L7 LOCO with AdaBN on test-centre images,Batch-norm statistics re-estimated on the unlabelled test centre,tumour,0.64 (0.57–0.72),−0.04 (−0.08 to −0.01)
+Fine-tuned CNN,"LOCO, epoch chosen on validation (centre-mean test AUC)",Reference for L5 in LOCO: centre-mean test AUC at the validation-chosen epoch,tumour,0.73,
+Fine-tuned CNN,"L5 LOCO, epoch chosen on held-out centre (centre-mean test AUC)",Epoch picked by the AUC in the held-out centre (centre mean),tumour,0.79,+0.06 (fold means)

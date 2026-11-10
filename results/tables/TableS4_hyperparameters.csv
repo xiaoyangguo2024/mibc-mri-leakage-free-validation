@@ -1,0 +1,12 @@
+Component,Fixed settings,"Search space (grouped inner 3-fold CV, AUC)",Grid points
+Classifier: LR (primary),"L2 penalty (default), solver=lbfgs, class_weight=balanced","C ∈ {0.01, 0.1, 1.0, 10.0}",4
+Classifier: SVM,"kernel=rbf, class_weight=balanced","C ∈ {0.1, 1.0, 10.0}; gamma ∈ {scale, 0.01}",6
+Classifier: KNN,weights=distance,"n_neighbors ∈ {5, 9, 15, 25}",4
+Classifier: RF,"n_estimators=500, class_weight=balanced","max_depth ∈ {3, 5, None}; min_samples_leaf ∈ {1, 5}",6
+Classifier: ExtraTrees,"n_estimators=500, class_weight=balanced","max_depth ∈ {3, 5, None}; min_samples_leaf ∈ {1, 5}",6
+Classifier: XGBoost,"n_estimators=300, subsample=0.8, colsample_bytree=0.8, scale_pos_weight=n(NMIBC)/n(MIBC) of the training data","max_depth ∈ {2, 3}; learning_rate ∈ {0.03, 0.1}",4
+Classifier: LightGBM,"n_estimators=300, subsample=0.8, colsample_bytree=0.8, class_weight=balanced","num_leaves ∈ {4, 8}; learning_rate ∈ {0.03, 0.1}; min_child_samples ∈ {10, 20}",8
+Classifier: MLP,"activation=relu, solver=adam, max_iter=3000","hidden_layer_sizes ∈ {(16,), (32, 16)}; alpha ∈ {0.001, 0.1}",4
+"Feature selection (radiomics, fusion)","ICC(3,1) ≥ 0.75; Mann–Whitney p < 0.05 (≥ 20 kept); |r| ≤ 0.9; ≤ 10 features","L1-LR C: 12 log-spaced values 0.01–10, one-standard-error rule",12
+Linear probe (frozen deep features),standardisation → PCA → L2-LR (class_weight=balanced),"PCA components ∈ {5, 10, 20, 40}; C ∈ {0.001, 0.01, 0.1, 1}",16
+"Fine-tuned CNN (ResNet-18, 2.5D)","input 128×128 px; ≤ 7 slices per tumour with ≥ 30% of maximum area; batch 32; ≤ 30 epochs; early stopping patience 7 on validation AUC; AdamW (lr 1e-4 backbone, 1e-3 head, weight decay 1e-4); one-cycle schedule; weighted BCE",none (fixed a priori),1

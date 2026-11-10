@@ -1,0 +1,5 @@
+centre,scanner,tumours,tumours_paper,MIBC,MIBC_paper,MIBC_pct,scans,patients,patients_paper_table1,multi_tumour_patients,max_tumours_per_patient,inplane_mm_median,inplane_mm_range,slice_mm_median,slice_mm_range,matrix_top,orientation,pixel_type,tumour_ml_median,tumour_ml_IQR,slices_median,mask_geometry_mismatch,multi_component_masks,empty_masks
+C1,Siemens MAGNETOM Skyra,160,160,30,30,18.8,119,119,119,18,12,0.625,0.500-1.188,3.3,1.00-7.20,320x320x20,LPS:119,8-bit unsigned integer/16-bit unsigned integer/16-bit signed integer,1.73,0.55-5.74,5.0,0,24,0
+C2,United Imaging uMR 780,48,48,25,25,52.1,47,47,47,1,2,0.397,0.312-0.820,3.5,3.00-6.00,504x504x24,LPS:47,16-bit signed integer/32-bit float/16-bit unsigned integer,8.62,3.78-15.50,7.0,0,3,0
+C3,GE Discovery MR750w,32,32,13,13,40.6,24,24,24,5,4,0.703,0.586-0.781,5.75,4.00-7.00,512x512x28,LPS:24,16-bit signed integer/vector of 32-bit float,6.12,2.41-17.86,4.0,0,8,0
+C4,Siemens MAGNETOM Verio,35,35,17,17,48.6,31,31,31,3,3,0.75,0.625-1.188,4.8,3.00-7.20,320x320x24,LPS:31,16-bit signed integer,5.04,1.92-16.15,5.0,0,3,0

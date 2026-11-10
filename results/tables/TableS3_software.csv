@@ -1,0 +1,24 @@
+Item,Version / source,Use
+Python,3.11.18,all analyses
+numpy,1.26.4,numerics
+scipy,1.17.1,statistics
+pandas,3.0.6,tables
+scikit-learn,1.9.1,"models, CV, metrics"
+SimpleITK,2.5.7,"image I/O, N4, resampling"
+pyradiomics,3.1.0 (built from the release source archive),radiomics features
+torch,2.14.1,deep learning
+torchvision,0.29.2,image transforms
+timm,1.0.31,"backbones (ResNet, DINOv2)"
+open_clip_torch,4.2.1,BiomedCLIP encoder
+xgboost,3.4.2,XGBoost classifier
+lightgbm,4.7.0,LightGBM classifier
+imbalanced-learn,0.14.2,SMOTE (audit L4 only)
+neuroCombat,0.2.12,ComBat harmonisation
+statsmodels,0.15.0,calibration models
+shap,0.48.0,SHAP values
+scikit-image,0.20.0,mask morphology
+matplotlib,3.11.2,figures
+Weights: timm/resnet18.tv_in1k (model.safetensors),Hugging Face revision bbd144b3e5; SHA-256 694f673df6520a3158624e8a89af086f59923ee4cd7436fe5bc3bc71d295ad81,fine-tuned CNN (ImageNet initialisation)
+Weights: timm/resnet50.tv2_in1k (model.safetensors),Hugging Face revision 10eea9779f; SHA-256 30f57ada2f100011a4bd38000df906d6354688a8ca599be580337151c3c5f6a3,frozen feature extraction
+Weights: timm/vit_base_patch14_dinov2.lvd142m (model.safetensors),Hugging Face revision 4685c99dab; SHA-256 55cbb5d887b336d430e649c277b85a1429e724871f9d02ac16203235886d8c7b,frozen feature extraction
+Weights: microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224 (open_clip_pytorch_model.bin),Hugging Face revision 9f341de24b; SHA-256 52cc993c5c5ff962bd0c60931874bc001e7e9b41666a385530f4a036294576be,frozen feature extraction
