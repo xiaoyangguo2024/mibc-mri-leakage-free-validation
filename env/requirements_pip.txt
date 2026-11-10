@@ -1,0 +1,14 @@
+# packages installed with pip into env/py (not available from conda-forge for osx-arm64)
+protobuf==7.36.2
+versioneer==0.29
+onnxruntime==1.31.1
+# pyradiomics: built from the v3.1.0 source release (github.com/AIM-Harvard/pyradiomics/archive/refs/tags/v3.1.0.tar.gz)
+# with: pip install --no-build-isolation <extracted folder>; package metadata reports 3.0.1a1
+neuroCombat==0.2.12
+pymupdf4llm==2.1
+pymupdf_layout==2.1
+# PyMuPDF is used only by the figure QA scripts (collision and text audits), not by the analysis
+pymupdf==2.1
+tabulate==0.10.0
+flatbuffers==25.12.19
+psutil==7.2.2
