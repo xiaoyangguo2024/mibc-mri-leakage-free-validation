@@ -1,0 +1,13 @@
+feature,n_folds,fraction
+IT_original_ngtdm_Busyness,6,0.24
+IT_log-sigma-2-0-mm-3D_firstorder_10Percentile,6,0.24
+PT_log-sigma-1-0-mm-3D_glcm_ClusterShade,6,0.24
+IT_log-sigma-1-0-mm-3D_firstorder_Skewness,7,0.28
+PT_original_firstorder_Skewness,7,0.28
+PT_log-sigma-1-0-mm-3D_ngtdm_Busyness,8,0.32
+IT_log-sigma-2-0-mm-3D_gldm_DependenceVariance,9,0.36
+PT_wavelet-LL_glcm_InverseVariance,9,0.36
+IT_log-sigma-1-0-mm-3D_glszm_ZoneEntropy,10,0.4
+PT_original_glcm_ClusterShade,15,0.6
+IT_log-sigma-1-0-mm-3D_ngtdm_Busyness,17,0.68
+IT_original_shape_MinorAxisLength,17,0.68
