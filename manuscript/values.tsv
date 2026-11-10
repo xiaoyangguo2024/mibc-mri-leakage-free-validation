@@ -1,0 +1,10 @@
+# key<TAB>value. Static manuscript values.
+# Computed numbers live in values_results.tsv (written by code/14_values.py; never edit by hand).
+TITLE	Radiomics and deep learning for muscle-invasive bladder cancer on MRI: how much survives leakage-free validation?
+AUTHORS	Xiaoyang Guo, Mingjie Wu, Zhiyue Sun, Zhenghang Liao, Ke Zeng, Bo Wen^\*^
+AFFILIATIONS	Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, No. 528 Xinsha Road, Shajing Street, Bao'an District, Shenzhen, Guangdong 518104, China
+CORRESPONDENCE	Bo Wen, Department of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, No. 528 Xinsha Road, Shajing Street, Bao'an District, Shenzhen 518104, Guangdong, China. E-mail: tjwb001@126.com
+FUNDING	This work was supported by the National Natural Science Foundation of China (General Program, grant number 82575068).
+CONTRIBUTIONS	Xiaoyang Guo: conceptualization, methodology, software, formal analysis, visualization and writing – original draft. Mingjie Wu, Zhiyue Sun, Zhenghang Liao and Ke Zeng: validation and writing – review and editing. Bo Wen: conceptualization, supervision and writing – review and editing. All authors read and approved the final manuscript.
+CODE_URL	https://github.com/xiaoyangguo2024/mibc-mri-leakage-free-validation
+CORRESPONDENCE_SIGNATURE	Bo Wen, on behalf of all authors  \nDepartment of Urology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China  \nE-mail: tjwb001@126.com

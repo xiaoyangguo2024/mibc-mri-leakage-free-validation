@@ -1,0 +1,61 @@
+# key	pmid_or_manual_key	note
+globocan	38572751	GLOBOCAN 2022, CA Cancer J Clin 2024
+primer	37884563	Bladder cancer primer, Nat Rev Dis Primers 2023
+eau_mibc	40118736	EAU MIBC guidelines 2025
+understaging	24053444	Understaging of cT1 / re-TURBT, BJU Int 2014
+vi_rads	29755006	VI-RADS, Eur Urol 2018
+virads_meta	32242273	VI-RADS meta-analysis, Eur Radiol 2020
+bladderpath_jco	39808757	BladderPath RCT, J Clin Oncol 2025
+bladderpath_hta	39246267	BladderPath HTA 2024
+fedbca	39424842	FedBCa dataset, Sci Data 2024
+dadcnet	41775791	DADCNet on FedBCa, npj Digit Med 2026
+jiim_fed	42918947	Federated multi-task on FedBCa, J Imaging Inform Med 2026
+he_mmr	42318044	CT deep-learning radiomics for MIBC, Mil Med Res 2026
+rad_meta	34099417	Radiomics MIBC meta-analysis, Eur Urol Focus 2022
+li_er	36434397	Deep learning vs VI-RADS, Eur Radiol 2023
+zou_cbm	36343408	Zou, Comput Biol Med 2022
+li_cmpb	36907040	Li J, radiomics vs single- and multi-task DL, Comput Methods Programs Biomed 2023
+zheng_fo	34055600	Zheng, Front Oncol 2021
+kurata	39253215	Kurata ViT, Heliyon 2024
+kapoor	37720327	Leakage and reproducibility crisis, Patterns 2023
+varoquaux	35413988	ML for medical imaging methodological failures, npj Digit Med 2022
+metrics_reloaded	38347141	Metrics Reloaded, Nat Methods 2024
+metric_pitfalls	38347140	Metric pitfalls, Nat Methods 2024
+yagis	34799630	Slice-level leakage in MRI, Sci Rep 2021
+demircioglu	34817740	Cross-validation bias in radiomics, Insights Imaging 2021
+gidwani	36537895	Inconsistent partitioning, Radiology 2023
+rosenblatt	38418819	Leakage inflates prediction performance, Nat Commun 2024
+tampu	36138025	Inflation of test accuracy from slice-level split, Sci Data 2022
+zech	30399157	Confounding in pneumonia CNN, PLoS Med 2018
+degrave	M_degrave	Shortcuts in COVID-19 radiograph AI, Nat Mach Intell 2021
+skullstrip	41428317	Skull-stripping shortcut, Insights Imaging 2025
+tripod_ai	38626948	TRIPOD+AI, BMJ 2024
+claim	38809149	CLAIM 2024 update, Radiol Artif Intell
+clear	37142815	CLEAR, Insights Imaging 2023
+clear_e3	38740707	CLEAR early insights
+metrics_tool	38228979	METRICS, Insights Imaging 2024
+pyradiomics	29092951	PyRadiomics, Cancer Res 2017
+ibsi	32154773	IBSI, Radiology 2020
+ibsi_filters	38319168	IBSI convolutional filters
+n4	20378467	N4ITK, IEEE TMI 2010
+fortin	29155184	ComBat for cortical thickness, NeuroImage 2018
+johnson	16632515	ComBat, Biostatistics 2007
+vickers2006	17099194	Decision curve analysis, Med Decis Making 2006
+vickers2008	19036144	DCA extensions 2008
+vancalster	31842878	Calibration: Achilles heel, BMC Med 2019
+delong	3203132	DeLong 1988 Biometrics
+dersimonian	3802833	DerSimonian-Laird 1986
+riley2016	27334381	External validation using IPD/big data, BMJ 2016
+riley2020	32188600	Sample size for development, BMJ 2020
+riley2021	34031906	Sample size for external validation, Stat Med 2021
+debray	28057641	Meta-analysis of prediction model performance, BMJ 2017
+inthout	24548571	HKSJ method, BMC Med Res Methodol 2014
+sun_xu	M_sun_xu	Fast DeLong, IEEE Signal Process Lett 2014
+dinov2	M_dinov2	DINOv2, arXiv 2023
+biomedclip	M_biomedclip	BiomedCLIP, arXiv 2023
+resnet	M_resnet	ResNet, CVPR 2016
+gradcam	M_gradcam	Grad-CAM, ICCV 2017
+adabn	M_adabn	AdaBN, Pattern Recognit 2018
+smote	M_smote	SMOTE, J Artif Intell Res 2002
+sklearn	M_sklearn	scikit-learn, JMLR 2011
+timm	M_timm	timm library
